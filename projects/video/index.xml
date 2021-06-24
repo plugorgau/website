@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video Streaming Project on Perth Linux Users Group</title>
+    <link>http://www.plug.org.au/projects/video/</link>
+    <description>Recent content in Video Streaming Project on Perth Linux Users Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language><atom:link href="http://www.plug.org.au/projects/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Physical Equipment</title>
+      <link>http://www.plug.org.au/projects/video/equipment-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.plug.org.au/projects/video/equipment-list/</guid>
+      <description>AV1: screen grabber, intel, audio out not working
+AV2: dvswitch, AMD Athlon II X4 640, 2GB RAM, audio in/out working (but mixer connection)
+AV3: camera, 2.8Ghz Celeron, 512MB RAM, audio in is not working
+AV4: camera, AMD Athlon 64 3500+, 1GB RAM, audio in/out working
+NOTE: system fails to boot a lot (dying?)
+The equipment we are aiming to use in most places is as generic, affordable and commodity as possible.</description>
+    </item>
+    
+    <item>
+      <title>Video Setup Procedure</title>
+      <link>http://www.plug.org.au/projects/video/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.plug.org.au/projects/video/setup/</guid>
+      <description>This procedure is to take you from packed up boxes to a live stream. Follow all the steps, none of them are optional unless marked.
+Step 1 - DV Switch &amp;amp; Streaming Get the main system up and running first and get a stream happening with our pre-recorded PLUG loop. With multiple people helping out then have someone take care of this while the others can get on with Step 2 in parallel.</description>
+    </item>
+    
+    <item>
+      <title>Video Streaming: Architectural Overview</title>
+      <link>http://www.plug.org.au/projects/video/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.plug.org.au/projects/video/overview/</guid>
+      <description>The goal is to produce a stream of video, with vision and audio mixed in real time, with live overlays and titling, outputting to an Icecast server (or a tree of Icecast relay servers).
+We&amp;rsquo;ll start by talking about the top of the tree: the switching desk.
+The switching software selects between a stream of data, and may mix streams with some limited options (eg, dissolve, overlay).
+Due to the limited cable length of Firewire cables, each video source is connected to a local PC, which captures the DV frames, and forwards them over the local network.</description>
+    </item>
+    
+  </channel>
+</rss>
